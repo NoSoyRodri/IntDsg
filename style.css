@@ -117,7 +117,7 @@
     text-align: center;
     padding: 1rem;
     background-color: #252525;
-    height: 200px;
+    height: 230px;
 }
 
 .contact-container {
@@ -128,18 +128,26 @@
     margin-bottom: 1rem;
     text-align: start;
 }
-
+.contact-button-container i{
+    color: #F2F2F2;
+    font-size: 30px;
+}
 .contact-button-container a {
     text-decoration: none;
     color: #f9f9f9;
+}
+.contact-item i{
+    font-size: 30px;
 }
 
 /* ===========================
    HEADER
 =========================== */
 .header {
-    height: 40px;
+    height: 35px;
     background-color: #252525;
+    position: fixed;
+    width: 100%;
 }
 
 .header-nav {
@@ -193,8 +201,8 @@ img {
 
     .img-container {
         width: 50%;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     .services-description-container {
@@ -227,24 +235,23 @@ img {
 
     .contact-section {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 1rem;
+        flex-direction: column;
+        align-items: end;
+        padding: 0;
         background-color: #252525;
-        height: 200px;
+        height: 250px;
     }
 
     .contact-container {
-        width: 100%;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: start;
+    padding: 1rem;
+    margin-right: 2rem;
+}
     .contact-button-container a {
         text-decoration: none;
         color: #f9f9f9;
@@ -257,8 +264,8 @@ img {
 @media(min-width: 1400px) {
     .img-container {
         width: 50%;
-        margin-left: 5rem;
-        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     img {
@@ -308,6 +315,7 @@ img {
 .i-container i{
     color: #252525;
     font-size: 40px;
+    
 }
 .p-container{
     width: 70%;
